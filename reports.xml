@@ -1,0 +1,65 @@
+<root>
+   <name>Reports</name>
+   <key>reports</key>
+   <state>beta</state>
+   <logo>http://suporte.passaromarron.com.br:86/glpi/github/os.png</logo>
+   <description>
+      <short>
+         <pt>Este plugins tem como objetivo gerar laudos a partir de ordens de serviços</pt>
+      </short>
+      <long>
+         <pt>Este plugins tem como objetivo gerar laudos a partir de ordens de serviços. Derivado do plugin ordemservice</pt>
+      </long>
+   </description>
+   <homepage>https://github.com/JulioAugustoS/glpiorderservice</homepage>
+   <download>https://github.com/JulioAugustoS/glpiorderservice/releases</download>
+   <issues>https://github.com/JulioAugustoS/glpiorderservice/issues</issues>
+   <readme>https://raw.githubusercontent.com/JulioAugustoS/glpiorderservice/master/README.md</readme>
+   <authors>
+      <author>Wardes Thiago Costa</author>
+   </authors>
+   <versions>
+      <version>
+         <num>2.0.0</num>
+         <compatibility>9.3</compatibility>
+         <compatibility>9.2</compatibility>
+      </version>
+      <version>
+         <num>0.1.4</num>
+         <compatibility>9.3</compatibility>
+         <compatibility>9.2</compatibility>
+      </version>
+      <version>
+         <num>0.1.3</num>
+         <compatibility>9.3</compatibility>
+         <compatibility>9.2</compatibility>
+      </version>
+      <version>
+         <num>0.1.2</num>
+         <compatibility>0.85</compatibility>
+         <compatibility>0.90</compatibility>
+         <compatibility>9.1</compatibility>
+         <compatibility>9.2</compatibility>
+		 <compatibility>9.5</compatibility>
+      </version>
+   </versions>
+   <langs>
+      <lang>pt_BR</lang>
+   </langs>
+   <license>GPLv3</license>
+   <tags>
+      <en>
+         <tag>Helpdesk</tag>
+         <tag>Category</tag>
+         <tag>Filter</tag>
+      </en>
+      <lang>
+         <tag>Assistance</tag>
+         <tag>Categorie</tag>
+         <tag>Filtre</tag>
+      </lang>
+   </tags>
+   <screenshots>
+      <screenshot>https://camo.githubusercontent.com/dd5cec9d55c670fc7d7ed73974a8675a7c2dd225/687474703a2f2f7375706f7274652e7061737361726f6d6172726f6e2e636f6d2e62723a38362f676c70692f6769746875622f30312e504e47</screenshot>
+   </screenshots>
+</root>

@@ -1,0 +1,279 @@
+/** Configurações **/
+
+.back {
+    width: 60% !important;
+    height: 700px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    padding: 10px 20px;
+}
+
+.back h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.back h2 {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.col-md-6 {
+    width: calc(50% - 30px);
+    height: auto;
+    float: left;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-empresa {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 98%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn-success:active:hover {
+    color: #FFF;
+    background-color: #398439;
+    border-color: #255625;
+}
+
+.btn-success {
+    color: #FFF;
+    background-color: #5cb85c;
+    border-color: #4cac4c;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@page {
+  size: A4;
+ // margin: 0;
+}
+
+@media print {
+/*   
+   html,body {
+        print-color-adjust: exact;
+		width: 210mm;
+		height: 297mm;
+		
+    }
+*/
+    .botao, #botoes {
+        display: none;
+    }
+	
+
+/*
+    table > tr > td {
+        text-align: left; 
+        padding: 5px;
+    }
+
+    td, th {
+        text-align: left;
+        padding: 5px;
+    }
+*/	
+}
+
+td, th {
+    text-align: left;
+    padding: 5px;
+}
+
+.td-logo-1 {
+    width: 20%;
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-logo-2 {
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.td-logo-1 img {
+    width: 100%;;
+}
+
+.td-logo-2 img {
+    width: 100%;
+}
+
+#titulo {
+    width: calc(100% - 40%);
+    float: left;
+}
+
+#os {
+    width: auto;
+    float: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.botao {
+    height: 27px;
+}
+
+#botoes {
+    width: 55%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+input[type="submit1"] {
+    height: 27px;
+}
+
+.table-pri {
+    width: 55%;
+    background: #FFF;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.table-sec {
+    width: 100%;
+    background: #FFF;
+    font-size: 12px;
+}
+
+.table-tre {
+    width: 100%;
+}
+
+.ali-center {
+    text-align: center;
+}
+
+.size-p {
+    font-size: 14px;
+}
+
+.os-number {
+    font-size: 30px;
+}
+
+.header-td {
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    background-color: #CCC;
+    padding: 10px;
+    font-size: 12px !important;
+    text-transform: unset !important;
+    font-weight: bold;
+    border: 1px solid #CCC;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+.padd {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.desc-chamado {
+    min-height: 150px;
+    height: auto;
+    text-indent: 50px;
+    text-align: justify;
+    /* letter-spacing: 3px; */
+}
